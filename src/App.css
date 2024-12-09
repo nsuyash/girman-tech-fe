@@ -1,0 +1,79 @@
+.nav-list{
+  list-style: none;
+  position: absolute;
+  right: 5rem;
+}
+
+.nav-item{
+  padding: 0px 15px;
+}
+
+.nav-item:hover .nav-link{
+  color: darkblue;
+  text-decoration: underline;
+}
+
+.navbar-nav .nav-item .nav-link.active{
+  color: rgb(56, 56, 223);
+  text-decoration: underline;
+}
+
+.company-logo{
+  width: 400px;
+  height: auto;
+  max-width: none;
+  max-height: none;
+  margin-top: 10rem;
+  border-radius: 0px;
+}
+
+input{
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin: auto;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.user-card-border{
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.user-card-border h3{
+  position: absolute;
+  top: 35px;
+  left: 120px;
+}
+
+.user-card-img{
+  border-radius: 300px;
+  width: 80px;
+  border: 1px solid black;
+  border-width: 3px;
+}
+
+.contact-availabe-show{
+  position: relative;
+  top: -15px;
+  font-weight: bold;
+  color: rgb(189, 199, 194);
+}
+
+.horizontal-line{
+  border-bottom: 1px solid lightgrey;
+}
+
+.btn-arrangement{
+  position: relative;
+  left: 50px;
+  top: 10px;
+}
+
+.modal-para-list{
+  font-weight: 600;
+}
