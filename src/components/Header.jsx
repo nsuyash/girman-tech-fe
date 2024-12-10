@@ -2,9 +2,8 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <>
-      <header className="shadow-sm">
-        <nav className="navbar navbar-expand-lg shadow-sm">
+      <header className="shadow-sm fixed-top bg-white">
+        <nav className="navbar navbar-expand-lg">
           <div className="container">
             <NavLink className="navbar-brand" to="/">
               <img
@@ -81,7 +80,6 @@ const Header = () => {
           </div>
         </nav>
       </header>
-    </>
   );
 };
 

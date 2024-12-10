@@ -77,9 +77,3 @@ input{
 .modal-para-list{
   font-weight: 600;
 }
-
-body,
-html {
-  overflow: auto !important;
-  padding-right: 0px;
-}

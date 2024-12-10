@@ -21,7 +21,7 @@ const Search = () => {
   return (
     <>
       <Header />
-      <FetchDetails user={user} />
+      <FetchDetails user={user} /><br /><br /><br />
       <div className="container my-5">
         <div className="mx-2">
         <div className="input-group">
@@ -82,7 +82,7 @@ const Search = () => {
               className="img-fluid"
               src="https://comodosslstore.com/blog/wp-content/uploads/2024/01/website-page-found-error-robot-character-broken-chatbot-mascot-disabled-site-technical-work_502272-1888.jpg"
               alt="Data Not Found"
-              style={{ maxWidth: "400px" }}
+              style={{ width: "300px" }}
             />
             <p className="mt-3">Oops, no data found.</p>
             </div>

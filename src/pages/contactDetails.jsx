@@ -3,8 +3,8 @@ import Header from "../components/Header";
 const ContactDetails = () => {
     return (
         <>
-            <Header />
-            <main className="container mt-5">
+            <Header /><br /><br /><br />
+            <main className="container my-5">
                 <h1>Contact Us</h1>
                 <div className="row g-0 mt-4">
                     <div className="card col-md-3 me-3 mb-3">
